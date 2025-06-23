@@ -1,0 +1,4 @@
+cargo new helloworld --vcs none
+cargo run
+cargo build
+cargo build --release
