@@ -2,3 +2,5 @@ cargo new helloworld --vcs none
 cargo run
 cargo build
 cargo build --release
+
+cargo new <project-name> --lib
