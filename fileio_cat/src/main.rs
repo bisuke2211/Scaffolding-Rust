@@ -20,9 +20,9 @@ fn main() {
     }
 
     match read_file(file_path) {
-        Ok(content  ) => println!("{}", content),
+        Ok(content) => println!("{content}"),
         Err(err) => {
-            eprintln!("Error reading file {}", err);
+            eprintln!("Error reading file {err}");
             std::process::exit(1);
             // return;
         }
