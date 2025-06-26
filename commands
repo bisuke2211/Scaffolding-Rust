@@ -2,5 +2,8 @@ cargo new helloworld --vcs none
 cargo run
 cargo build
 cargo build --release
+cargo add chrono toml
 
 cargo new <project-name> --lib
+
+export RUST_LOG="info"
