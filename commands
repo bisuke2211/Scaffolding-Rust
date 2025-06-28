@@ -7,3 +7,5 @@ cargo add chrono toml
 cargo new <project-name> --lib
 
 export RUST_LOG="info"
+
+cargo run --bin client "message to be sent to the server"
